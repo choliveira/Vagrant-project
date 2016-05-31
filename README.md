@@ -50,6 +50,8 @@ vagrant up
 vagrant ssh
 ```
 
+### It must be working now, copy your code according to your project_name.local.conf `DocumentRoot /var/www/project_name/symfony/web`
+
 ### Set up your hosts file to access this new VM via browser
 - On your mac open the file `/etc/hosts` with your preferable editor, your must be sudo(root) to edit this file:
     - include this line:
